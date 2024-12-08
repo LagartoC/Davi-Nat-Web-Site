@@ -1,0 +1,90 @@
+/* meu estilo de menu */
+body {
+    background-color: rgb(228, 255, 228);
+}
+
+.menu {
+    background-color: rgb(105, 172, 108);
+    padding: 10px;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.829);
+    margin: 10px;
+    font-size: 18px;
+}
+/* acrescentei um padding para dar um efeito adicional ao passar o mouse*/
+.menu a:hover {
+    background-color: rgb(134, 221, 138);
+    padding: 15px 25px; 
+}
+
+/* divisão e texto  */
+div {
+    padding: 20px;
+    margin: 10px 0;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+/* estiliza o formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+input, textarea, button {
+    margin: 5px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(58, 124, 55);
+    color: rgb(0, 0, 0);
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(33, 68, 42);
+}
+/* definições dos textos de descrição de campos de prenchimento*/
+.descricaoCampo {
+    font-weight: bold; 
+    font-size: 25px;    
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.descricaoPagina {
+    font-weight: bold; 
+    font-size: 30px;    
+    margin-bottom: 80px; 
+    text-align: center;
+    
+}
+/* aqui defino uma borda para o texto ficar contido, o alinhono centro e defino quebra de linha padronizada*/
+.textoComum {
+    font-weight: bold; 
+    font-size: 20px;    
+    margin-bottom: 5px; 
+    padding: 10px;
+    width: 800px;  
+    text-align: center;             
+    overflow-wrap: break-word;
+    word-wrap: break-word;      
+    white-space: normal;        
+    border: 3px solid rgba(152, 202, 122, 0.5); 
+    background-color: rgba(191, 255, 154, 0.5);     
+    margin: 20px auto 5px;  
+    margin-top: 20px;  
+    position: center;
+    
+    
+}
